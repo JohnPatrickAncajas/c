@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
+import { Outlet } from 'react-router-dom';
 
 function MyNavbar() {
   return (
@@ -13,12 +14,13 @@ function MyNavbar() {
           <Nav className="ml-auto flex-grow-1">
           </Nav>
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#about">About</Nav.Link>
-            <Nav.Link href="#contact">Contact</Nav.Link>
+            <Nav.Link href="/" to="/">Home</Nav.Link>
+            <Nav.Link href="/About" to="/About">About</Nav.Link>
+            <Nav.Link href="/contact" to="">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
+      <Outlet />
     </Navbar>
   );
 }
