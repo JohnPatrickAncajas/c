@@ -5,7 +5,7 @@ import HomePage from './components/Homepage';
 import MyFooter from './components/Footer';
 
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
   Route,
   Link,
