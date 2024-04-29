@@ -9,19 +9,19 @@ function HomePage() {
       <p>This is the homepage content.</p>
       <ul>
         <li>
-          <Link href="/Lesson1" to="/c/Lesson1">Lesson 1</Link>
+          <Link href="/Lesson1" to="/Lesson1">Lesson 1</Link>
         </li>
         <li>
-          <Link href="/Lesson2">Lesson 2</Link>
+          <Link href="/Lesson2" to="/Lesson2">Lesson 2</Link>
         </li>
         <li>
-          <Link href="/Lesson3">Lesson 3</Link>
+          <Link href="/Lesson3" to="/Lesson3">Lesson 3</Link>
         </li>
         <li>
-          <Link href="/Lesson4">Lesson 4</Link>
+          <Link href="/Lesson4" to="/Lesson4">Lesson 4</Link>
         </li>
         <li>
-          <Link href="/Lesson5">Lesson 5</Link>
+          <Link href="/Lesson5" to="/Lesson5">Lesson 5</Link>
         </li>
       </ul>
     </Container>

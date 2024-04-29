@@ -4,13 +4,7 @@ import MyNavbar from './components/Navbar';
 import HomePage from './components/Homepage';
 import MyFooter from './components/Footer';
 
-import {
-  HashRouter as Router,
-  Routes,
-  Route,
-  Link,
-  Outlet,
-  useParams } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 
 import About from './pages/About';
 import Contact from './pages/Contact';
@@ -23,17 +17,20 @@ import Lesson5 from './pages/Lesson5';
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
       <MyNavbar />
       <Routes>
-        <Route path='/c/*' element={<HomePage />} />
-        <Route path='/c/Lesson1' element={<Lesson1 />} />
-        <Route path='/c/Lesson2' element={<Lesson2 />} />
-        <Route path='/c/About' element={<About />} />
-        <Route path='/c/Contact' element={<Contact />} />
+        <Route path='/*' element={<HomePage />} />
+        <Route path='/Lesson1' element={<Lesson1 />} />
+        <Route path='/Lesson2' element={<Lesson2 />} />
+        <Route path='/Lesson3' element={<Lesson3 />} />
+        <Route path='/Lesson4' element={<Lesson4 />} />
+        <Route path='/Lesson5' element={<Lesson5 />} />
+        <Route path='/About' element={<About />} />
+        <Route path='/Contact' element={<Contact />} />
       </Routes>
       <MyFooter />
-    </Router>
+    </HashRouter>
   );
 }
 
