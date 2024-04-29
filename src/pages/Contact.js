@@ -1,13 +1,13 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 
-function About() {
+function Contact() {
     return (
         <Container className='my-3'>
-            <h1>About</h1>
+            <h1>Contact</h1>
             <p>Lorem ipsum</p>
         </Container>
     );
 }
 
-export default About;
+export default Contact;

@@ -14,9 +14,9 @@ function MyNavbar() {
           <Nav className="ml-auto flex-grow-1">
           </Nav>
           <Nav className="me-auto">
-            <Nav.Link href="/" to="/">Home</Nav.Link>
-            <Nav.Link href="/About" to="/About">About</Nav.Link>
-            <Nav.Link href="/contact" to="">Contact</Nav.Link>
+            <Nav.Link href="/c" to="/c">Home</Nav.Link>
+            <Nav.Link href="/c/About" to="/c/About">About</Nav.Link>
+            <Nav.Link href="/c/Contact" to="/c/Contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

@@ -4,12 +4,12 @@ import { Link } from 'react-router-dom';
 
 function HomePage() {
   return (
-    <Container className="my-5">
+    <Container className="my-3">
       <h1>Welcome to C Lesson Guide!</h1>
       <p>This is the homepage content.</p>
       <ul>
         <li>
-          <Link href="/Lesson1">Lesson 1</Link>
+          <Link href="/Lesson1" to="/c/Lesson1">Lesson 1</Link>
         </li>
         <li>
           <Link href="/Lesson2">Lesson 2</Link>

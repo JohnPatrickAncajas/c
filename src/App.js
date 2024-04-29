@@ -13,12 +13,12 @@ import {
   useParams } from 'react-router-dom';
 
 import About from './pages/About';
+import Contact from './pages/Contact';
 import Lesson1 from './pages/Lesson1';
 import Lesson2 from './pages/Lesson2';
 import Lesson3 from './pages/Lesson3';
 import Lesson4 from './pages/Lesson4';
 import Lesson5 from './pages/Lesson5';
-import { Nav, Navbar } from 'react-bootstrap';
 
 
 function App() {
@@ -26,8 +26,11 @@ function App() {
     <Router>
       <MyNavbar />
       <Routes>
-        <Route path='/' element={<HomePage />} />
-        <Route path='/About' element={<About />} />
+        <Route path='/c/*' element={<HomePage />} />
+        <Route path='/c/Lesson1' element={<Lesson1 />} />
+        <Route path='/c/Lesson2' element={<Lesson2 />} />
+        <Route path='/c/About' element={<About />} />
+        <Route path='/c/Contact' element={<Contact />} />
       </Routes>
       <MyFooter />
     </Router>
