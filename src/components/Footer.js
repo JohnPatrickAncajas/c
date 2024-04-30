@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 
 function MyFooter() {
   return (
-    <footer className="bg-dark text-light py-3 fixed-bottom">
+    <footer className="bg-dark text-light py-3">
       <Container>
         <p>© {new Date().getFullYear()} GitHub</p>
       </Container>
