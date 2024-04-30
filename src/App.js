@@ -6,7 +6,7 @@ import MyFooter from './components/Footer';
 
 import { HashRouter, Routes, Route } from 'react-router-dom';
 
-import About from './pages/About';
+import Lessons from './pages/Lessons';
 import Contact from './pages/Contact';
 import Lesson1 from './pages/Lesson1';
 import Lesson2 from './pages/Lesson2';
@@ -20,13 +20,13 @@ function App() {
     <HashRouter>
       <MyNavbar />
       <Routes>
-        <Route path='/*' element={<HomePage />} />
-        <Route path='/Lesson1' element={<Lesson1 />} />
-        <Route path='/Lesson2' element={<Lesson2 />} />
-        <Route path='/Lesson3' element={<Lesson3 />} />
-        <Route path='/Lesson4' element={<Lesson4 />} />
-        <Route path='/Lesson5' element={<Lesson5 />} />
-        <Route path='/About' element={<About />} />
+        <Route index path='/' element={<HomePage />} />
+        <Route path='/Lessons' element={<Lessons />} />
+        <Route path='/Lessons/Lesson1' element={<Lesson1 />} />
+        <Route path='/Lessons/Lesson2' element={<Lesson2 />} />
+        <Route path='/Lessons/Lesson3' element={<Lesson3 />} />
+        <Route path='/Lessons/Lesson4' element={<Lesson4 />} />
+        <Route path='/Lessons/Lesson5' element={<Lesson5 />} />
         <Route path='/Contact' element={<Contact />} />
       </Routes>
       <MyFooter />
