@@ -8,14 +8,14 @@ function MyNavbar() {
   return (
     <Navbar expand="lg" bg="dark" variant="dark">
       <Container>
-        <Navbar.Brand as={Link} to="/">C Lesson Guide</Navbar.Brand>
+        <Navbar.Brand as={Link} to="/c">C Lesson Guide</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto flex-grow-1">
           </Nav>
           <Nav className="me-auto">
             <Nav.Link as={Link} to="/">Home</Nav.Link>
-            <Nav.Link as={Link} to="/Lessons">Lessons</Nav.Link>
+            <Nav.Link as={Link} to="/About">About</Nav.Link>
             <Nav.Link as={Link} to="/Contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
