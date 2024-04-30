@@ -14,7 +14,7 @@ function MyNavbar() {
           <Nav className="ml-auto flex-grow-1">
           </Nav>
           <Nav className="me-auto">
-            <Nav.Link as={Link} to="/">Home</Nav.Link>
+            <Nav.Link as={Link} to="/c">Home</Nav.Link>
             <Nav.Link as={Link} to="/Lessons">Lessons</Nav.Link>
             <Nav.Link as={Link} to="/Contact">Contact</Nav.Link>
           </Nav>

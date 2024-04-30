@@ -20,7 +20,7 @@ function App() {
     <HashRouter>
       <MyNavbar />
       <Routes>
-        <Route index path='/' element={<HomePage />} />
+        <Route index path='/c/*' element={<HomePage />} />
         <Route path='/Lessons' element={<Lessons />} />
         <Route path='/Lessons/Lesson1' element={<Lesson1 />} />
         <Route path='/Lessons/Lesson2' element={<Lesson2 />} />
