@@ -1,0 +1,63 @@
+.codebox {
+  counter-reset: line;
+  font-family: monospace;
+  white-space: nowrap;
+  border-radius: 0.5rem;
+  padding: 0.5rem 0;
+  margin: 0.5rem 0;
+  background-color: #f0f0f0;
+}
+
+.codebox p {
+  margin: 0;
+  counter-increment: line;
+}
+
+.codebox p::before {
+  content: counter(line);
+  display: inline-block;
+  width: 2rem;
+  margin-right: 1.5rem;
+  text-align: right;
+  font-size: 80%;
+  opacity: 70%;
+}
+
+.tab {
+  margin-right: 2rem;
+}
+
+.green {
+  color: #00ce00;
+}
+
+.blue {
+  color: #1313a9;
+  font-weight: 900;
+}
+
+.lightblue {
+  color: #0069e9;
+}
+
+.gray {
+  color: #b0b0b0;
+  opacity: 90%;
+}
+
+.red  {
+  color: #ff0000;
+}
+
+.pink {
+  color: #d8457e
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.content-wrap {
+  flex: 1;
+}
