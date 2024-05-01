@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 
 import MyNavbar from './components/Navbar';
-import HomePage from './components/Homepage';
+import HomePage from './pages/Homepage';
 import MyFooter from './components/Footer';
 
 import Lessons from './pages/Lessons';
