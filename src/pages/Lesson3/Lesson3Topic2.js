@@ -2,7 +2,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import '../../styles/codebox.css';
 
-function Lesson2() {
+function Lesson3Topic2() {
     return (
         <Container className='my-3'>
             <h1>Lesson 2 - C Programming Basics</h1>
@@ -57,4 +57,4 @@ function Lesson2() {
     );
 }
 
-export default Lesson2;
+export default Lesson3Topic2;

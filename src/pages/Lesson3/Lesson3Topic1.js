@@ -1,7 +1,7 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 
-function Lesson1Topic1() {
+function Lesson3Topic1() {
     return (
         <Container className='my-3'>
             <h1>Lesson 1 - Introduction To C</h1>
@@ -58,4 +58,4 @@ function Lesson1Topic1() {
     );
 }
 
-export default Lesson1Topic1;
+export default Lesson3Topic1;
