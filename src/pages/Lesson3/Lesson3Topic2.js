@@ -1,6 +1,6 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
-import '../styles/codebox.css';
+import '../../styles/codebox.css';
 
 function Lesson2() {
     return (
