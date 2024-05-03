@@ -10,8 +10,8 @@ function Lessons() {
             <hr/>
             <main>
                 <section><Link to="/Lessons/Lesson1" className="link-style-main">Lesson 1 - Basic Computer Concepts</Link><ul>
-                    <li><Link to="/Lessons/Lesson1/Topic1" className="link-style"><p>Topic 1 - What Is A Computer?</p><ul>
-                        <li>Computers</li>
+                    <li><Link to="/Lessons/Lesson1/Topic1" className="link-style"><p>Topic 1 - Computers</p><ul>
+                        <li>What are Computers?</li>
                         <li>Information Processing Cycle</li>
                         <li>Input</li>
                         <li>Processing</li>
@@ -46,7 +46,33 @@ function Lessons() {
                         <li>Files</li>
                         <li>Extensions and Formats</li>
                     </ul></Link></li>
-                </ul></section>
+                </ul></section><hr/>
+
+                <section><Link to="/Lessons/Lesson2" className="link-style-main">Lesson 2 - Algorithms and Pseudocodes</Link><ul>
+                    <li><Link to="/Lessons/Lesson2/Topic1" className="link-style"><p>Topic 1 - Program Logic Formulation</p><ul>
+                        <li>What is Program Logic Formulation?</li>
+                        <li>Logic</li>
+                    </ul></Link></li>
+                    
+                    <li><Link to="/Lessons/Lesson2/Topic2" className="link-style"><p>Topic 2 - Algorithms</p><ul>
+                        <li>What are Algorithms?</li>
+                        <li>Properties of Algorithm</li>
+                        <li>Ways to express an Algorithm</li>
+                    </ul></Link></li>
+                    
+                    <li><Link to="/Lessons/Lesson2/Topic2" className="link-style"><p>Topic 3 - Pseudocodes</p><ul>
+                        <li>What are Pseudocodes?</li>
+                        <li>Logical structure of Pseudocode</li>
+                        <li>Rules For Pseudocodes</li>
+                        <li>Advantages and Limitations</li>
+                    </ul></Link></li>
+
+                    <li><Link to="/Lessons/Lesson2/Topic2" className="link-style"><p>Topic 4 - Symbols And Operators</p><ul>
+                        <li>Calculation Symbols</li>
+                        <li>Selection Symbols</li>
+                        <li>Logical Operators</li>
+                    </ul></Link></li>
+                </ul></section><hr/>
 
                 <section><Link to="/Lessons/Lesson3" className="link-style-main">Lesson 3 - C Programming Language</Link><ul>
                     <li><Link to="/Lessons/Lesson3/Topic1" className="link-style"><p>Topic 1 - Introduction To C</p><ul>
@@ -60,7 +86,108 @@ function Lessons() {
                         <li>Basic Input And Output In C</li>
                         <li>Preprocessor Directives</li>
                         <li>Basic List Of Header Files</li>
-                        <li>Key Points To Remember In C Programming Basics</li>
+                        <li>Key Points To Remember</li>
+                    </ul></Link></li>
+                </ul></section><hr/>
+
+                <section><Link to="/Lessons/Lesson4" className="link-style-main">Lesson 4 - Fundamentals Of C Programming</Link><ul>
+                    <li><Link to="/Lessons/Lesson4/Topic1" className="link-style"><p>Topic 1 - Basic Escape Sequences</p><ul>
+                        <li>What are Escape Sequences?</li>
+                        <li>Common Escape Sequences</li>
+                        <li>Usage of Escape Sequences</li>
+                    </ul></Link></li>
+                    
+                    <li><Link to="/Lessons/Lesson4/Topic2" className="link-style"><p>Topic 2 - Placeholders</p><ul>
+                        <li>What are Placeholders?</li>
+                        <li>Placeholders in Output Statements</li>
+                        <li>Format Specifier</li>
+                    </ul></Link></li>
+
+                    <li><Link to="/Lessons/Lesson4/Topic3" className="link-style"><p>Topic 3 - Input Operations</p><ul>
+                        <li>Accepting User Input</li>
+                        <li>For Integers</li>
+                        <li>For String</li>
+                        <li>For Others</li>
+                    </ul></Link></li>
+                </ul></section><hr/>
+
+                <section><Link to="/Lessons/Lesson5" className="link-style-main">Lesson 5 - C Programming Language Operators</Link><ul>
+                    <li><Link to="/Lessons/Lesson5/Topic1" className="link-style"><p>Topic 1 - Operators</p><ul>
+                        <li>What are Operators?</li>
+                        <li>Types of Operators</li>
+                    </ul></Link></li>
+                    
+                    <li><Link to="/Lessons/Lesson5/Topic2" className="link-style"><p>Topic 2 - Arithmetic Operators</p><ul>
+                        <li>What are Arithmetic Operators?</li>
+                        <li>Symbols for Arithmetic Operaors</li>
+                        <li>Usage of Arithmetic Operators</li>
+                    </ul></Link></li>
+
+                    <li><Link to="/Lessons/Lesson5/Topic3" className="link-style"><p>Topic 3 - Assignment Operators</p><ul>
+                        <li>What are Assignment Operators?</li>
+                        <li>Symbols for Assignment Operaors</li>
+                        <li>Usage of Assignment Operators</li>
+                    </ul></Link></li>
+
+                    <li><Link to="/Lessons/Lesson5/Topic4" className="link-style"><p>Topic 4 - Relational Operators</p><ul>
+                        <li>What are Relational Operators?</li>
+                        <li>Symbols for Relational Operaors</li>
+                        <li>Usage of Relational Operators</li>
+                    </ul></Link></li>
+
+                    <li><Link to="/Lessons/Lesson5/Topic5" className="link-style"><p>Topic 5 - Logical Operators</p><ul>
+                        <li>What are Logical Operators?</li>
+                        <li>Symbols for Logical Operaors</li>
+                        <li>Usage of Logical Operators</li>
+                    </ul></Link></li>
+
+                    <li><Link to="/Lessons/Lesson5/Topic6" className="link-style"><p>Topic 6 - Increment/Decrement Operators</p><ul>
+                        <li>What are Increment/Decrement Operators?</li>
+                        <li>Symbols for Increment/Decrement Operaors</li>
+                        <li>Usage of Increment/Decrement Operators</li>
+                    </ul></Link></li>
+                </ul></section><hr/>
+
+                <section><Link to="/Lessons/Lesson6" className="link-style-main">Lesson 6 - C Programming Control Structures</Link><ul>
+                    <li><Link to="/Lessons/Lesson6/Topic1" className="link-style"><p>Topic 1 - Statements</p><ul>
+                        <li>What are Statements?</li>
+                        <li>Simple Statement</li>
+                        <li>Compound Statement or Block</li>
+                    </ul></Link></li>
+                    
+                    <li><Link to="/Lessons/Lesson6/Topic2" className="link-style"><p>Topic 2 - Control Structures</p><ul>
+                        <li>What are Control Structures?</li>
+                        <li>Types of Control Structures</li>
+                    </ul></Link></li>
+
+                    <li><Link to="/Lessons/Lesson6/Topic3" className="link-style"><p>Topic 3 - If Structure</p><ul>
+                        <li>What are If structures?</li>
+                        <li>Format of If structures</li>
+                        <li>Usage of If structures</li>
+                    </ul></Link></li>
+
+                    <li><Link to="/Lessons/Lesson6/Topic4" className="link-style"><p>Topic 4 - If-Else Structure</p><ul>
+                        <li>What are If-Else structures?</li>
+                        <li>Format of If-Else structures</li>
+                        <li>Usage of If-Else structures</li>
+                    </ul></Link></li>
+
+                    <li><Link to="/Lessons/Lesson6/Topic5" className="link-style"><p>Topic 5 - If-Else If Structure</p><ul>
+                        <li>What are If-Else If structures?</li>
+                        <li>Format of If-Else If structures</li>
+                        <li>Usage of If-Else If structures</li>
+                    </ul></Link></li>
+
+                    <li><Link to="/Lessons/Lesson6/Topic6" className="link-style"><p>Topic 6 - Nested If Structure</p><ul>
+                        <li>What are Nested If structures?</li>
+                        <li>Format of Nested If structures</li>
+                        <li>Usage of Nested If structures</li>
+                    </ul></Link></li>
+
+                    <li><Link to="/Lessons/Lesson6/Topic7" className="link-style"><p>Topic 7 - Switch Case Structure</p><ul>
+                        <li>What are Switch Case structures?</li>
+                        <li>Format of Switch Case structures</li>
+                        <li>Usage of Switch Case structures</li>
                     </ul></Link></li>
                 </ul></section>
             </main>
