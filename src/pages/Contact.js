@@ -11,7 +11,7 @@ function Contact() {
             <section>
                 <h2>Personal Information</h2>
                 <p><strong>Name:</strong> John Patrick DP. Ancajas</p>
-                <p><strong>Year:</strong> BSCS - 1A</p>
+                <p><strong>College:</strong> Technological University of the Philippines</p>
             </section>
 
             <section>

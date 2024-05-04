@@ -9,8 +9,8 @@ function Lessons() {
             <h1>Lessons</h1>
             <hr/>
             <main>
-                <section><Link to="/Lessons/Lesson1" className="link-style-main">Lesson 1 - Basic Computer Concepts</Link><ul>
-                    <li><Link to="/Lessons/Lesson1/Topic1" className="link-style"><p>Topic 1 - Computers</p><ul>
+                <section><Link to="/Lessons/Lesson1"><h3>Lesson 1 - Basic Computer Concepts</h3></Link><ul>
+                    <li><Link to="/Lessons/Lesson1/Topic1" className="link-style"><h5>Topic 1 - Computers</h5><ul>
                         <li>What are Computers?</li>
                         <li>Information Processing Cycle</li>
                         <li>Input</li>
@@ -27,7 +27,7 @@ function Lessons() {
                         <li>User</li>
                     </ul></Link></li>
                     
-                    <li><Link to="/Lessons/Lesson1/Topic3" className="link-style"><p>Topic 3 - Essential Computer Hardware</p><ul>
+                    <li><Link to="/Lessons/Lesson1/Topic3" className="link-style"><p>Topic 3 - Computer Hardware</p><ul>
                         <li>Processing Devices</li>
                         <li>Memory Devices</li>
                         <li>Input and Output Devices</li>
@@ -48,7 +48,7 @@ function Lessons() {
                     </ul></Link></li>
                 </ul></section><hr/>
 
-                <section><Link to="/Lessons/Lesson2" className="link-style-main">Lesson 2 - Algorithms and Pseudocodes</Link><ul>
+                <section><Link to="/Lessons/Lesson2">Lesson 2 - Algorithms and Pseudocodes</Link><ul>
                     <li><Link to="/Lessons/Lesson2/Topic1" className="link-style"><p>Topic 1 - Program Logic Formulation</p><ul>
                         <li>What is Program Logic Formulation?</li>
                         <li>Logic</li>
@@ -74,7 +74,7 @@ function Lessons() {
                     </ul></Link></li>
                 </ul></section><hr/>
 
-                <section><Link to="/Lessons/Lesson3" className="link-style-main">Lesson 3 - C Programming Language</Link><ul>
+                <section><Link to="/Lessons/Lesson3">Lesson 3 - C Programming Language</Link><ul>
                     <li><Link to="/Lessons/Lesson3/Topic1" className="link-style"><p>Topic 1 - Introduction To C</p><ul>
                         <li>C Language History</li>
                         <li>Features And Uses Of The C Language</li>
@@ -90,7 +90,7 @@ function Lessons() {
                     </ul></Link></li>
                 </ul></section><hr/>
 
-                <section><Link to="/Lessons/Lesson4" className="link-style-main">Lesson 4 - Fundamentals Of C Programming</Link><ul>
+                <section><Link to="/Lessons/Lesson4">Lesson 4 - Fundamentals Of C Programming</Link><ul>
                     <li><Link to="/Lessons/Lesson4/Topic1" className="link-style"><p>Topic 1 - Basic Escape Sequences</p><ul>
                         <li>What are Escape Sequences?</li>
                         <li>Common Escape Sequences</li>
@@ -111,7 +111,7 @@ function Lessons() {
                     </ul></Link></li>
                 </ul></section><hr/>
 
-                <section><Link to="/Lessons/Lesson5" className="link-style-main">Lesson 5 - C Programming Language Operators</Link><ul>
+                <section><Link to="/Lessons/Lesson5">Lesson 5 - C Programming Language Operators</Link><ul>
                     <li><Link to="/Lessons/Lesson5/Topic1" className="link-style"><p>Topic 1 - Operators</p><ul>
                         <li>What are Operators?</li>
                         <li>Types of Operators</li>
@@ -148,7 +148,7 @@ function Lessons() {
                     </ul></Link></li>
                 </ul></section><hr/>
 
-                <section><Link to="/Lessons/Lesson6" className="link-style-main">Lesson 6 - C Programming Control Structures</Link><ul>
+                <section><Link to="/Lessons/Lesson6">Lesson 6 - C Programming Control Structures</Link><ul>
                     <li><Link to="/Lessons/Lesson6/Topic1" className="link-style"><p>Topic 1 - Statements</p><ul>
                         <li>What are Statements?</li>
                         <li>Simple Statement</li>
@@ -189,7 +189,49 @@ function Lessons() {
                         <li>Format of Switch Case structures</li>
                         <li>Usage of Switch Case structures</li>
                     </ul></Link></li>
-                </ul></section>
+                </ul></section><hr/>
+
+                <section><Link to="/Lessons/Lesson7">Lesson 7 - To be added.</Link><ul>
+                    <li><Link to="/Lessons/Lesson7/Topic1" className="link-style"><p>Topic 1 - To be added.</p><ul>
+                        <li>To be added.</li>
+                        <li>To be added.</li>
+                        <li>To be added.</li>
+                    </ul></Link></li>
+                    
+                    <li><Link to="/Lessons/Lesson7/Topic2" className="link-style"><p>Topic 2 - To be added.</p><ul>
+                        <li>To be added.</li>
+                        <li>To be added.</li>
+                        <li>To be added.</li>
+                    </ul></Link></li>
+                </ul></section><hr/>
+
+                <section><Link to="/Lessons/Lesson8">Lesson 8 - To be added.</Link><ul>
+                    <li><Link to="/Lessons/Lesson8/Topic1" className="link-style"><p>Topic 1 - To be added.</p><ul>
+                        <li>To be added.</li>
+                        <li>To be added.</li>
+                        <li>To be added.</li>
+                    </ul></Link></li>
+                    
+                    <li><Link to="/Lessons/Lesson8/Topic2" className="link-style"><p>Topic 2 - To be added.</p><ul>
+                        <li>To be added.</li>
+                        <li>To be added.</li>
+                        <li>To be added.</li>
+                    </ul></Link></li>
+                </ul></section><hr/>
+
+                <section><Link to="/Lessons/Lesson9">Lesson 9 - To be added.</Link><ul>
+                    <li><Link to="/Lessons/Lesson9/Topic1" className="link-style"><p>Topic 1 - To be added.</p><ul>
+                        <li>To be added.</li>
+                        <li>To be added.</li>
+                        <li>To be added.</li>
+                    </ul></Link></li>
+                    
+                    <li><Link to="/Lessons/Lesson9/Topic2" className="link-style"><p>Topic 2 - To be added.</p><ul>
+                        <li>To be added.</li>
+                        <li>To be added.</li>
+                        <li>To be added.</li>
+                    </ul></Link></li>
+                </ul></section><hr/>
             </main>
         </Container>
     );

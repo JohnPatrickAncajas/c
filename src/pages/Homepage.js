@@ -11,18 +11,32 @@ function HomePage() {
       </section>
 
       <section>
-        <h3>[Topic Placeholder 1]</h3>
-        <p>Description and details to be added.</p>
+        <h3>Lesson 1 - Basic Computer Concepts</h3>
+        <ul>
+          <li>Computers</li>
+          <li>Parts of a Computer system</li>
+          <li>Computer Hardware</li>
+          <li>Computer Software</li>
+          <li>Data and Information</li>
+        </ul>
       </section>
 
       <section>
-        <h3>[Topic Placeholder 2]</h3>
-        <p>Description and details to be added.</p>
+        <h3>Lesson 2 - Algorithms and Pseudocodes</h3>
+        <ul>
+          <li>Program Logic Formulation</li>
+          <li>Algorithms</li>
+          <li>Pseudocodes</li>
+          <li>Symbols and Operators</li>
+        </ul>
       </section>
 
       <section>
-        <h3>[Topic Placeholder 3]</h3>
-        <p>Description and details to be added.</p>
+        <h3>Lesson 3 - C Programming Language</h3>
+        <ul>
+          <li>Introduction to C</li>
+          <li>C Programming Basics</li>
+        </ul>
       </section>
 
       <section>
