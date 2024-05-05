@@ -11,7 +11,7 @@ function HomePage() {
       </section>
 
       <section>
-        <h3>Lesson 1 - Basic Computer Concepts</h3>
+        <h4>Lesson 1 - Basic Computer Concepts</h4>
         <ul>
           <li>Computers</li>
           <li>Parts of a Computer system</li>
@@ -22,7 +22,7 @@ function HomePage() {
       </section>
 
       <section>
-        <h3>Lesson 2 - Algorithms and Pseudocodes</h3>
+        <h4>Lesson 2 - Algorithms and Pseudocodes</h4>
         <ul>
           <li>Program Logic Formulation</li>
           <li>Algorithms</li>
@@ -32,7 +32,7 @@ function HomePage() {
       </section>
 
       <section>
-        <h3>Lesson 3 - C Programming Language</h3>
+        <h4>Lesson 3 - C Programming Language</h4>
         <ul>
           <li>Introduction to C</li>
           <li>C Programming Basics</li>

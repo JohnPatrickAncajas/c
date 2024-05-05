@@ -19,7 +19,7 @@ function Lessons() {
                         <li>Memory and Storage</li>
                     </ul></Link></li>
                     
-                    <li><Link to="/Lessons/Lesson1/Topic2" className="link-style"><p>Topic 2 - Parts Of A Computer System</p><ul>
+                    <li><Link to="/Lessons/Lesson1/Topic2" className="link-style"><h5>Topic 2 - Parts Of A Computer System</h5><ul>
                         <li>Hardware</li>
                         <li>Pheripherals</li>
                         <li>Software</li>
@@ -27,7 +27,7 @@ function Lessons() {
                         <li>User</li>
                     </ul></Link></li>
                     
-                    <li><Link to="/Lessons/Lesson1/Topic3" className="link-style"><p>Topic 3 - Computer Hardware</p><ul>
+                    <li><Link to="/Lessons/Lesson1/Topic3" className="link-style"><h5>Topic 3 - Computer Hardware</h5><ul>
                         <li>Processing Devices</li>
                         <li>Memory Devices</li>
                         <li>Input and Output Devices</li>
@@ -35,12 +35,12 @@ function Lessons() {
                         <li>Storage Devices</li>
                     </ul></Link></li>
                     
-                    <li><Link to="/Lessons/Lesson1/Topic4" className="link-style"><p>Topic 4 - Computer Software</p><ul>
+                    <li><Link to="/Lessons/Lesson1/Topic4" className="link-style"><h5>Topic 4 - Computer Software</h5><ul>
                         <li>System Software</li>
                         <li>Application Software</li>
                     </ul></Link></li>
 
-                    <li><Link to="/Lessons/Lesson1/Topic5" className="link-style"><p>Topic 5 - Data and Information</p><ul>
+                    <li><Link to="/Lessons/Lesson1/Topic5" className="link-style"><h5>Topic 5 - Data and Information</h5><ul>
                         <li>Data</li>
                         <li>Information</li>
                         <li>Files</li>
