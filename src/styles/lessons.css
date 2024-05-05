@@ -1,4 +1,4 @@
-a {
+Link {
     display: block;
     margin-bottom: 0.5rem;
     color: #0056b3;
@@ -7,12 +7,7 @@ a {
     transition: color 0.15s ease-in-out, text-decoration-color 0.15s ease-in-out;
 }
 
-a:hover,
-a:focus {
+Link:hover,
+Link:focus {
     color: #00234f;
-}
-
-a ul li {
-    font-size: 1.1rem;
-    opacity: 85%;
 }
