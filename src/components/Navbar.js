@@ -27,9 +27,27 @@ function MyNavbar() {
               <NavDropdown.Item href="#action/3.4">Topic 3 - something long</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.5">Topic 4 - something long</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
+
+              <NavDropdown.ItemText>Lesson 1 - Basic Computer Concepts</NavDropdown.ItemText>
+              <NavDropdown.Item href="#action/3.2" >Topic 1 - Computers</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Topic 2 - something long</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.4">Topic 3 - something long</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.5">Topic 4 - something long</NavDropdown.Item>
+              <NavDropdown.Divider />
+
+              <NavDropdown.ItemText>Lesson 1 - Basic Computer Concepts</NavDropdown.ItemText>
+              <NavDropdown.Item href="#action/3.2" >Topic 1 - Computers</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Topic 2 - something long</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.4">Topic 3 - something long</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.5">Topic 4 - something long</NavDropdown.Item>
+              <NavDropdown.Divider />
+              
+              <NavDropdown.ItemText>Lesson 1 - Basic Computer Concepts</NavDropdown.ItemText>
+              <NavDropdown.Item href="#action/3.2" >Topic 1 - Computers</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Topic 2 - something long</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.4">Topic 3 - something long</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.5">Topic 4 - something long</NavDropdown.Item>
+              <NavDropdown.Divider />
             </NavDropdown>
             <Nav.Link as={Link} to="/Contact">Contact</Nav.Link>
           </Nav>
