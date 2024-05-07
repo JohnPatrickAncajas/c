@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, Outlet } from 'react-router-dom';
-import { Navbar, Nav, Container, Offcanvas} from 'react-bootstrap';
+import { Navbar, Nav, Container, Offcanvas, Dropdown } from 'react-bootstrap';
 
 function MyNavbar() {
   const [show, setShow] = useState(false);
@@ -28,13 +28,20 @@ function MyNavbar() {
         <Outlet />
       </Navbar>
 
-      <Offcanvas show={show} onHide={handleClose} placement="end" className="bg-dark text-white">
+      <Offcanvas show={show} onHide={handleClose} placement="end">
         <Offcanvas.Header closeButton>
           <Offcanvas.Title>Menu</Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
-          <Nav.Link as={Link} to="/topic1">Topic 1 - Computers</Nav.Link>
-          <Nav.Link as={Link} to="/topic2">Topic 2 - something long</Nav.Link>
+          <Dropdown>
+            <Dropdown.Toggle variant="secondary" id="dropdown-basic">
+              Select a Topic
+            </Dropdown.Toggle>
+            <Dropdown.Menu>
+              <Dropdown.Item as={Link} to="/topic1">Topic 1 - Computers</Dropdown.Item>
+              <Dropdown.Item as={Link} to="/topic2">Topic 2 - something long</Dropdown.Item>
+            </Dropdown.Menu>
+          </Dropdown>
         </Offcanvas.Body>
       </Offcanvas>
     </>
