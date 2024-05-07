@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, Outlet } from 'react-router-dom';
-import { Navbar, Nav, Container, Offcanvas, Dropdown } from 'react-bootstrap';
+import { Navbar, Nav, Container, Offcanvas, Accordion } from 'react-bootstrap';
 
 function MyNavbar() {
   const [show, setShow] = useState(false);
@@ -33,15 +33,14 @@ function MyNavbar() {
           <Offcanvas.Title>Menu</Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
-          <Dropdown>
-            <Dropdown.Toggle variant="secondary" id="dropdown-basic">
-              Select a Topic
-            </Dropdown.Toggle>
-            <Dropdown.Menu>
-              <Dropdown.Item as={Link} to="/topic1">Topic 1 - Computers</Dropdown.Item>
-              <Dropdown.Item as={Link} to="/topic2">Topic 2 - something long</Dropdown.Item>
-            </Dropdown.Menu>
-          </Dropdown>
+          <Accordion defaultActiveKey="0">
+            <Accordion.Item eventKey="0">
+              <Accordion.Header>Lesson 1 - Basic Computer Concepts</Accordion.Header>
+              <Accordion.Body>
+                <Nav.Link as={Link} to="/Lessons/Lesson1/Topic1">Topic 1 - Computers</Nav.Link>
+              </Accordion.Body>
+            </Accordion.Item>
+          </Accordion>
         </Offcanvas.Body>
       </Offcanvas>
     </>
