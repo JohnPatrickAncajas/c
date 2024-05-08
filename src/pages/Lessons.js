@@ -41,21 +41,22 @@ function Lessons() {
                     <Accordion.Header><h4>Lesson 3 - C Programming Language</h4></Accordion.Header>
                     <Accordion.Body>
                     <ul>
-                        <li><Link to="/Lessons/Lesson3/Topic1">Topic 1 - Introduction To C</Link></li>
-                        <li><Link to="/Lessons/Lesson3/Topic2">Topic 2 - C Programming Basics</Link></li>
+                        <li><Link to="/Lessons/Lesson3/Topic1">Topic 1 - Introduction To C: Discover the origins, importance, and applications of the C programming language.</Link></li>
+                        <li><Link to="/Lessons/Lesson3/Topic2">Topic 2 - C Programming Basics: Learn about the elements of C.</Link></li>
                     </ul>
+                    <p>This lesson introduces the C programming language, covering its basics and foundational concepts.</p>
                     </Accordion.Body>
                 </Accordion.Item>
 
                 <Accordion.Item eventKey="4">
                     <Accordion.Header><h4>Lesson 4 - Fundamentals Of C Programming</h4></Accordion.Header>
                     <Accordion.Body>
-
                     <ul>
-                        <li><Link to="/Lessons/Lesson4/Topic1">Topic 1 - Basic Escape Sequences</Link></li>
-                        <li><Link to="/Lessons/Lesson4/Topic2">Topic 2 - Placeholders</Link></li>
-                        <li><Link to="/Lessons/Lesson4/Topic3">Topic 3 - Input Operations</Link></li>
+                        <li><Link to="/Lessons/Lesson4/Topic1">Topic 1 - Basic Escape Sequences: Learn about special character combinations that perform various actions within strings, like newlines or tabs.</Link></li>
+                        <li><Link to="/Lessons/Lesson4/Topic2">Topic 2 - Placeholders: Explore how placeholders are used in formatted output to represent data types in C.</Link></li>
+                        <li><Link to="/Lessons/Lesson4/Topic3">Topic 3 - Input Operations: Understand the methods for receiving user input and processing it within your C programs.</Link></li>
                     </ul>
+                    <p>This lesson focuses on the essential building blocks of C programming, including understanding escape sequences, placeholders, and input operations.</p>
                     </Accordion.Body>
                 </Accordion.Item>
                 
@@ -63,13 +64,14 @@ function Lessons() {
                     <Accordion.Header><h4>Lesson 5 - C Programming Language Operators</h4></Accordion.Header>
                     <Accordion.Body>
                     <ul>
-                        <li><Link to="/Lessons/Lesson5/Topic1">Topic 1 - Operators</Link></li>
-                        <li><Link to="/Lessons/Lesson5/Topic2">Topic 2 - Arithmetic Operators</Link></li>
-                        <li><Link to="/Lessons/Lesson5/Topic3">Topic 3 - Assignment Operators</Link></li>
-                        <li><Link to="/Lessons/Lesson5/Topic4">Topic 4 - Relational Operators</Link></li>
-                        <li><Link to="/Lessons/Lesson5/Topic5">Topic 5 - Logical Operators</Link></li>
-                        <li><Link to="/Lessons/Lesson5/Topic6">Topic 6 - Increment/Decrement Operators</Link></li>
+                        <li><Link to="/Lessons/Lesson5/Topic1">Topic 1 - Operators: Understand the different types of operators, including arithmetic, assignment, relational, and logical operators.</Link></li>
+                        <li><Link to="/Lessons/Lesson5/Topic2">Topic 2 - Arithmetic Operators Learn how to perform basic mathematical operations like addition, subtraction, multiplication, and division.</Link></li>
+                        <li><Link to="/Lessons/Lesson5/Topic3">Topic 3 - Assignment Operators: Discover how to assign values to variables using various assignment operators.</Link></li>
+                        <li><Link to="/Lessons/Lesson5/Topic4">Topic 4 - Relational Operators: Explore comparisons between variables and their results (e.g., greater than, less than, equal to).</Link></li>
+                        <li><Link to="/Lessons/Lesson5/Topic5">Topic 5 - Logical Operators: Master logical operations such as AND, OR, and NOT.</Link></li>
+                        <li><Link to="/Lessons/Lesson5/Topic6">Topic 6 - Increment/Decrement Operators: Study the increment (++) and decrement (-) operators for efficient code.</Link></li>
                     </ul>
+                    <p>This comprehensive lesson is designed to equip you with a thorough understanding of the various operators that form the backbone of programming logic in C</p>
                     </Accordion.Body>
                 </Accordion.Item>
 
@@ -77,14 +79,15 @@ function Lessons() {
                     <Accordion.Header><h4>Lesson 6 - C Programming Control Structures</h4></Accordion.Header>
                     <Accordion.Body>
                     <ul>
-                        <li><Link to="/Lessons/Lesson6/Topic1">Topic 1 - Statements</Link></li>
-                        <li><Link to="/Lessons/Lesson6/Topic2">Topic 2 - Control Structures</Link></li>
-                        <li><Link to="/Lessons/Lesson6/Topic3">Topic 3 - If Structure</Link></li>
-                        <li><Link to="/Lessons/Lesson6/Topic4">Topic 4 - If-Else Structure</Link></li>
-                        <li><Link to="/Lessons/Lesson6/Topic5">Topic 5 - If-Else If Structure</Link></li>
-                        <li><Link to="/Lessons/Lesson6/Topic6">Topic 6 - Nested If Structure</Link></li>
-                        <li><Link to="/Lessons/Lesson6/Topic7">Topic 7 - Switch Case Structure</Link></li>
+                        <li><Link to="/Lessons/Lesson6/Topic1">Topic 1 - Statements: Introduction to the basic units of code and execution in C.</Link></li>
+                        <li><Link to="/Lessons/Lesson6/Topic2">Topic 2 - Control Structures: Overview of the mechanisms that control the flow of execution.</Link></li>
+                        <li><Link to="/Lessons/Lesson6/Topic3">Topic 3 - If Structure: Detailed look at the 'if' statement for single-condition checks.</Link></li>
+                        <li><Link to="/Lessons/Lesson6/Topic4">Topic 4 - If-Else Structure: Exploration of the 'if-else' statement for two-way branching.</Link></li>
+                        <li><Link to="/Lessons/Lesson6/Topic5">Topic 5 - If-Else If Structure: Understanding how to handle multiple conditions with 'if-else if'.</Link></li>
+                        <li><Link to="/Lessons/Lesson6/Topic6">Topic 6 - Nested If Structure: Techniques for using 'if' statements within 'if' statements for complex decision-making.</Link></li>
+                        <li><Link to="/Lessons/Lesson6/Topic7">Topic 7 - Switch Case Structure: Utilization of the 'switch case' for cleaner multi-way branching based on variable values.</Link></li>
                     </ul>
+                    <p>In this lesson, we examine the control structures that are fundamental to directing the flow of a C program. We start with basic statements, move on to the various 'if' structures that allow for conditional execution, and conclude with the 'switch case' structure for multi-way branching.</p>
                     </Accordion.Body>
                 </Accordion.Item>
 
