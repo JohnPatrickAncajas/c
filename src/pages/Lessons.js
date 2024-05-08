@@ -14,12 +14,13 @@ function Lessons() {
                     <Accordion.Header><h4>Lesson 1 - Basic Computer Concepts</h4></Accordion.Header>
                     <Accordion.Body>
                     <ul>
-                        <li><Link to="/Lessons/Lesson1/Topic1">Topic 1 - Computers</Link></li>
-                        <li><Link to="/Lessons/Lesson1/Topic2">Topic 2 - Parts Of A Computer System</Link></li>
-                        <li><Link to="/Lessons/Lesson1/Topic3">Topic 3 - Computer Hardware</Link></li>
-                        <li><Link to="/Lessons/Lesson1/Topic4">Topic 4 - Computer Software</Link></li>
-                        <li><Link to="/Lessons/Lesson1/Topic5">Topic 5 - Data and Information</Link></li>
+                        <li><Link to="/Lessons/Lesson1/Topic1">Topic 1 - Computers: An introduction to the world of computing and its significance.</Link></li>
+                        <li><Link to="/Lessons/Lesson1/Topic2">Topic 2 - Parts of a Computer System: A breakdown of the various components that make up a computer system.</Link></li>
+                        <li><Link to="/Lessons/Lesson1/Topic3">Topic 3 - Computer Hardware: Insight into the physical parts of a computer and their functions.</Link></li>
+                        <li><Link to="/Lessons/Lesson1/Topic4">Topic 4 - Computer Software: Understanding the programs and operating systems that run on a computer.</Link></li>
+                        <li><Link to="/Lessons/Lesson1/Topic5">Topic 5 - Data and Information: Differentiating between raw data and processed information.</Link></li>
                     </ul>
+                    <p>In this lesson, we explore fundamental concepts related to computers. We cover topics such as the components of a computer system, computer hardware, software, and the distinction between data and information.</p>
                     </Accordion.Body>
                 </Accordion.Item>
 
@@ -27,11 +28,12 @@ function Lessons() {
                     <Accordion.Header><h4>Lesson 2 - Algorithms and Pseudocodes</h4></Accordion.Header>
                     <Accordion.Body>
                     <ul>
-                        <li><Link to="/Lessons/Lesson2/Topic1">Topic 1 - Program Logic Formulation</Link></li>
-                        <li><Link to="/Lessons/Lesson2/Topic2">Topic 2 - Algorithms</Link></li>
-                        <li><Link to="/Lessons/Lesson2/Topic3">Topic 3 - Pseudocodes</Link></li>
-                        <li><Link to="/Lessons/Lesson2/Topic4">Topic 4 - Symbols And Operators</Link></li>
+                        <li><Link to="/Lessons/Lesson2/Topic1">Topic 1 - Program Logic Formulation: Understanding how to express program logic systematically.</Link></li>
+                        <li><Link to="/Lessons/Lesson2/Topic2">Topic 2 - Algorithms: Learning about step-by-step procedures to solve problems.</Link></li>
+                        <li><Link to="/Lessons/Lesson2/Topic3">Topic 3 - Pseudocodes: Exploring a high-level description of an algorithm using plain language.</Link></li>
+                        <li><Link to="/Lessons/Lesson2/Topic4">Topic 4 - Symbols And Operators: Familiarizing yourself with symbols and operators used in programming.</Link></li>
                     </ul>
+                    <p>This lesson provides an essential guide to formulating program logic, creating algorithms, writing pseudocode, and understanding the symbols and operators used in programming</p>
                     </Accordion.Body>
                 </Accordion.Item>
                 
