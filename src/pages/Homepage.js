@@ -33,15 +33,19 @@ function HomePage() {
   return (
     <Container className="my-3">
       <main>
+        <section className="d-flex justify-content-center">
+          <h1>C Lesson Guide</h1>
+        </section><hr/>
+        
         <section>
-          <h1>Welcome to Your C Programming Guide!</h1>
+          <h3>Welcome to Your C Programming Guide!</h3>
           <p>Embark on your programming journey with this comprehensive guide built on the <strong>Computer Programming 1</strong> curriculum. Here, you'll find everything from the basics to advanced concepts, all designed to enhance your understanding and skills in C programming.</p>
+          <p>Start with Lesson 1 about basic computer concepts, then explore algorithms in Lesson 2. Dive into the C language with Lesson 3, understand its fundamentals in Lesson 4, learn about operators in Lesson 5, and control structures in Lesson 6.</p><hr/>
         </section>
 
         <section className="mt-4">
-          <h2>Ready to Dive In?</h2>
+          <h3>Ready to Dive In?</h3>
           <p>As you progress through this guide, remember that patience and practice are your best tools. Don't hesitate to revisit sections or reach out for help if you need it. And most importantly, have fun exploring the world of C programming!</p>
-          <p className="p-3">Good luck on your C programming journey!</p>
         </section>
 
         <section>
