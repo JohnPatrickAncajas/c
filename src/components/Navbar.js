@@ -21,7 +21,6 @@ function MyNavbar() {
               <Nav.Link as={Link} to="/">Home</Nav.Link>
               <Nav.Link as={Link} to="/Lessons">Lessons</Nav.Link>
               <Nav.Link onClick={handleShow}>Menu</Nav.Link>
-              <Nav.Link as={Link} to="/Contact">Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
