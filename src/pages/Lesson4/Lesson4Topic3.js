@@ -1,13 +1,14 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
+import '../../styles/codebox.css';
 
-function Lesson4() {
+function Lesson4Topic3() {
     return (
         <Container className='my-3'>
-            <h1>Lesson 4</h1>
+            <h1>Topic 3</h1>
             <p>Lorem ipsum</p>
         </Container>
     );
 }
 
-export default Lesson4;
+export default Lesson4Topic3;
