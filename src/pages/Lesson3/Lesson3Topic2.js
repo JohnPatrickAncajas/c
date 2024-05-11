@@ -5,8 +5,7 @@ import '../../styles/codebox.css';
 function Lesson3Topic2() {
     return (
         <Container className='my-3'>
-            <h1>Lesson 2 - C Programming Basics</h1>
-            <hr/>
+            <h1>Topic 2 - C Programming Basics</h1><hr/>
             <h3>Basic Input And Output In C</h3>
             <div className="codebox overflow-auto">
                 <p><span className='green'>#include &lt;stdio.h&gt;</span></p>

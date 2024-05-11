@@ -4,8 +4,7 @@ import Container from 'react-bootstrap/Container';
 function Lesson3Topic1() {
     return (
         <Container className='my-3'>
-            <h1>Lesson 1 - Introduction To C</h1>
-            <hr/>
+            <h1>Topic 1 - Introduction To C</h1><hr/>
             <h3>C Language History</h3>
             <ul>
                 <li>The C programming language was developed at Bell Laboratories in 1972 by Dennis Ritchie.</li>
